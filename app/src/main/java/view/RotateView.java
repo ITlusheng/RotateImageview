@@ -167,7 +167,7 @@ public class RotateView extends ImageView {
                 return degree;
             }
         }
-
+//在特定
         // 在特定的象限内
         float tanB = (y1 - y) / (x1 - x);
         float tanC = (y2 - y) / (x2 - x);
