@@ -1,7 +1,9 @@
 package com.example.edwin.rotateimageview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +14,13 @@ public class MainActivity extends AppCompatActivity {
         //ffffffffffff
         //测试结果
         initUI();
+
+        initData();
+
+        Handler handler = new Handler();
+    }
+
+    private void initData() {
     }
 
     private void initUI() {
