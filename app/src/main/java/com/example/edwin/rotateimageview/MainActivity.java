@@ -11,5 +11,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //ffffffffffff
         //测试结果
+        initUIt();
+    }
+
+    private void initUIt() {
+
     }
 }
