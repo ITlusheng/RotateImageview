@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
     }
 
-    private void initUI() {
+    private void initUI() {//那我就随便写点东西把
 
         Toast.makeText(this,"123",Toast.LENGTH_SHORT).show();
     }
