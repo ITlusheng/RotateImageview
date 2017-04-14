@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         initData();
 
-        Handler handler = new Handler();
+        Handler handler = new Handler();//创建handler
     }
 
     private void initData() {
